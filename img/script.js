@@ -108,6 +108,7 @@ const renderTask = (task) => {
 }
 
 
+
 window.onload = function() {
     const form = document.getElementById("form-task");
     form.addEventListener('submit', createTask);
